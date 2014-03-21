@@ -17,8 +17,3 @@
     });
     $core = new \App\Core();
     $core->execute();
-
-   // $routes = dirname(__FILE__).'/../App/routes.php';
-
-   // $router = new \App\Routing($routes);
-   // $router->run();
