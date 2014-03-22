@@ -44,7 +44,7 @@ namespace web;
 try {
 
     $user = 'root';
-    $pass = 'poxtzi73';
+    $pass = 'password';
     $dbh = new \PDO('mysql:host=localhost;dbname=testDB;charset=UTF8', $user, $pass);
     $dbh->setAttribute(\PDO::MYSQL_ATTR_INIT_COMMAND, \PDO::ERRMODE_EXCEPTION);
 
